@@ -1,0 +1,20 @@
+server:
+  port: 8000
+
+log:
+  filename: "storage/logs/logs.log"
+  maxSize: 64
+  maxBackup: 5
+  maxAge: 30
+  compress: false
+  logType: daily
+  level: debug
+
+database:
+  host: 127.0.0.1
+  port: 3306
+  dbname:
+  username: root
+  password: 123456
+  charset: utf8mb4
+  type: mysql
